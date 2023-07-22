@@ -1,11 +1,11 @@
 # mongodb-python-class
-##Class
-###Attributes
+## Class
+### Attributes
 `connection_string`
 
 auth string to connect to db
 
-###Methods
+### Methods
 `file_exist → bool`
 
 checks a file if it exist in collection
