@@ -6,30 +6,19 @@
 auth string to connect to db
 
 ### Methods
-`file_exist → bool`
+`get → dict`
 
-checks a file if it exist in collection
+returns empty if not exists and returns the data if exists
 
-`get_file → dict`
-
-get a file record
-
-`insert_file → bool`
-
-check if file exists
-
-if not exist
+`insert → None`
 
 insert then check a file record to the collection
 
-else
-
-update the file record
-
-returns False if not inserted
-
-`delete_file → bool`
+`delete → bool`
 
 deletes and check a file if deleted in the collection
 
 returns False if not deleted
+
+`update → None`
+updates the file in collection
